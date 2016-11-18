@@ -1,0 +1,282 @@
+body{
+    font-family: sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.parent2 {
+  top:15px;
+  left:15px;
+  position:fixed;
+ display:block;
+  width:100px;
+  height:100px;
+  background-color:transparent;
+  border-radius:50%;
+  z-index:20;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.test1 {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  z-index:19;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    position:absolute;
+}
+
+.test1:after{
+    content: "Página Inicial";
+    padding: 1em .1em;
+    height: 0;
+    background-color: dimGray;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    line-height:0px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test1:before{
+    content: '';
+    width:1em;
+    height:1em;
+    background:dimGray;
+    transform: rotate(-45deg) translate(0,-60%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test1:hover:after{
+    opacity: 1;
+    bottom: -75%;
+    width: 8em;
+    height: .1em;
+}
+
+.test1:hover:before{
+    opacity: 1;
+    bottom: -45%;
+}
+
+.test2 {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  z-index:19;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+}
+
+
+.test2:after{
+    content: "Pesquisar por itens achados";
+    padding: 1em .1em;
+    height: 0;
+    background-color: dimGray;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    line-height:0px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test2:before{
+    content: '';
+    width:1em;
+    height:1em;
+    background:dimGray;
+    transform: rotate(-45deg) translate(0,-60%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test2:hover:after{
+    opacity: 1;
+    bottom: -75%;
+    height: .1em;
+    width: 16em;
+}
+
+.test2:hover:before{
+    opacity: 1;
+    bottom: -45%;
+}
+
+
+
+.test3 {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
+}
+
+.test3:after{
+    content: "Incluir item achado";
+    padding: 1em .1em;
+    height: 0;
+    background-color: dimGray;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    line-height:0px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test3:before{
+    content: '';
+    width:1em;
+    height:1em;
+    background:dimGray;
+    transform: rotate(-45deg) translate(0,-60%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test3:hover:after{
+    opacity: 1;
+    bottom: -75%;
+    width: 14em;
+    height: .1em;
+}
+
+.test3:hover:before{
+    opacity: 1;
+    bottom: -45%;
+}
+  .test4 {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+  top:25%;
+  left:25%;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;  
+}
+
+
+.test4:after{
+    content: "Informar item perdido";
+    padding: 1em .1em;
+    height: 0;
+    background-color: dimGray;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    line-height:0px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test4:before{
+    content: '';
+    width:1em;
+    height:1em;
+    background:dimGray;
+    transform: rotate(-45deg) translate(0,-60%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.test4:hover:after{
+    opacity: 1;
+    bottom: -75%;
+    height: .1em;
+    width: 14em;
+}
+
+.test4:hover:before{
+    opacity: 1;
+    bottom: -45%;
+}
+
+
+.mask2 {
+  top:15px;
+  left:15px;
+  width:100px;
+  height:100px;
+  background:darkSlateGray;
+  border-radius:50%;
+  position:absolute;
+  z-index:21;
+  color:white;
+  text-align:center;
+  line-height:120px;
+  cursor:pointer;
+  position:fixed;
+}
+
+.center-icon{
+    transform: translate(0,50%);
+}
